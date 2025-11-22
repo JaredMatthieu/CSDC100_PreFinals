@@ -13,3 +13,6 @@ A requirement for Pre Finals of CSDC100 in Computer Science at Ateneo de Naga Un
 
 ## Project Screenshots
 ![alt text](src/index.png "index")
+![alt text](src/info.png "index")
+![alt text](src/ethics.png "index")
+![alt text](src/about.png "index")
