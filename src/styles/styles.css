@@ -79,6 +79,18 @@ body {
     font-weight: 700;
 }
 
+.text-content ul {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0;
+  margin-left: 0;
+}
+
+.text-content > ul > li{
+  margin-left: 20px;
+  font-weight: normal;
+}
+
 .text-content p {
     font-size: xx-large;
 }
