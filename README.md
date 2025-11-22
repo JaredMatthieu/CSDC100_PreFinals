@@ -12,3 +12,4 @@ A requirement for Pre Finals of CSDC100 in Computer Science at Ateneo de Naga Un
 -CSS
 
 ## Project Screenshots
+![alt text](src/index.png "index")
