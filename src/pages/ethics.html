@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src\styles\styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">YouMan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-items">
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/info.html">info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/src/pages/ethics.html">ethics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/about.html">about</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="faq-wrapper">
+      <ul>
+
+          <li class="question">
+              Responsible use in the academy
+              <ul>
+                  <li>
+                      Artificial intelligence should always be a backup and not a replacement. 
+                      Students’ work that is provided towards their professors should come with pride 
+                      knowing that their work is founded on their ideas and intellect.
+                  </li>
+              </ul>
+          </li>
+
+          <li class="question">
+              Avoiding plagiarism and misuse
+              <ul>
+                  <li>
+                      Artificial intelligence’s main use should be to assist. People should use it 
+                      to help in thinking or answer questions that are too hard to comprehend.
+                  </li>
+              </ul>
+          </li>
+
+          <li class="question">
+              Accuracy and verification of AI outputs
+              <ul>
+                  <li>
+                      Outputs provided by students should always be innocent until proven otherwise. 
+                      Extended or difficult work should come with documentation such as drafts. 
+                      Moreover, text-based outputs can be checked with AI detectors, but they have 
+                      been shown to be inaccurate. It also lessens writers’ capabilities because 
+                      their main focus shifts to reducing AI in their papers even though they’re innocent.
+                  </li>
+              </ul>
+          </li>
+
+          <li class="question">
+              Bias and fairness
+              <ul>
+                  <li>
+                      Artificial intelligence is not widely understood by people, and there has been 
+                      a black-and-white battle between its use. It is contradictory that academia fears AI-generated 
+                      content while the corporate world leans into its use.
+                  </li>
+              </ul>
+          </li>
+
+          <li class="question">
+              Your own recommended guidelines
+              <ul>
+                  <li>Allowed: “assistive” use.</li>
+                  <li>AI outputs should be referenced and not be used as your own.</li>
+                  <li>Suspicious AI use should be answered with documentation.</li>
+              </ul>
+          </li>
+
+          <li class="question">
+            Analogy: Dev Work
+            <ul>
+              <li>
+                Imagine you are organizing your wedding. The documentation team is asking 40k for the wedding package. 
+                They will use an iPhone 16 Pro Max to cover the event and CapCut for the same-day edit video. 
+                The documentation team has 2 years of experience and an above-average portfolio. 
+                Would you agree to that deal? You have to think about integrity, creativity, and skill—the same qualities expected from developers using AI tools today.
+              </li>
+            </ul>
+            <button type="button" class="btn mt-2" data-bs-toggle="modal" data-bs-target="#answerModal" style="margin-left: 3rem; background-color: transparent; border: 1px solid black; color: black;">
+              Show Answer
+            </button>
+
+
+          <div class="modal fade" id="answerModal" tabindex="-1" aria-labelledby="answerModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="answerModalLabel">Answer</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  I would take his offer, especially if the output he gives is above average. 
+                  Although his tools are not standard to the industry, those are the same tools that he utilized to make his portfolio stand out. 
+                  Moreover, I feel it is unfair for the photographer to be compared to “vibe” coders, especially since the photographer learned and honed his craft while the other types know what he wants and his work is done. 
+                  It’s integral for programmers to fully understand their work since any errors or mishaps are their fault. 
+                  Therefore, vibe coders are not real programmers and are only an imitation of what the industry stands for and is capable of.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            </ul>
+          </li>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
